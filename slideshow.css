@@ -1,0 +1,43 @@
+#container {
+    background-color: #D5ECE4;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#sdileshow {
+    height: auto;
+    text-align: center;
+}
+
+#imgslideshow {
+    border: 3px dotted #0B0707;
+    width: 400px;
+    height: 400px;
+}
+
+#buttonslide {
+    margin-top: 20px;
+    height: auto;
+    text-align: center;
+}
+
+#imgbutton {
+    width: 100px;
+    height: 100px;
+}
+
+#arrimage {
+    margin-top: 20px;
+    padding-bottom:  100px;
+    height: auto;
+    text-align: center;
+}
+
+.img {
+    border: 3px dotted #0B0707;
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+}

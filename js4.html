@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex 4</title>
+</head>
+
+<body>
+    <div id="main">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, deleniti? Quos, aperiam ipsam. A expedita
+        placeat iste dicta quis, rem, consequatur veritatis, aliquam voluptas amet porro quidem exercitationem facilis
+        aperiam.
+    </div>
+    <button type="button" onclick="changeColor()">change color</button>
+    <script>
+        var color= ['red', 'blue', 'purple'];
+        var i;
+        function changeColor()
+        {
+            i=Math.floor((Math.random()*3)+0)       ;
+            document.getElementById("main").style.color=color[i];
+        }
+    
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex 5  </title>
+</head>
+<body>
+    <div id="counter"></div>
+    <button type="button" id="Start"onclick="Start()">START</button>
+    <button type="button" onclick="Stop()">STOP</button>
+    <script>
+        var start;
+        var count=0;
+
+    function Start(){
+        count++;
+        start=setTimeout(Start,1000);
+        document.getElementById("counter").innerHTML=count+"";
+        document.getElementById("Start").disabled=true;
+    }
+
+    function Stop(){
+        clearTimeout(start);
+        count=0;
+        document.getElementById("counter").innerHTML="";
+        document.getElementById("Start").disabled=false;
+    }
+    </script>
+
+
+</body>
+</html>
